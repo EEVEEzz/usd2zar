@@ -4,61 +4,59 @@
     font-family: 'Slackey', cursive;
 }
 
+h1 {
+    color: black;
+    font-size: 50px;
+    border: 5px double blue;
+    outline: 1px solid red;
+}
+
 body {
     color: #a6ff00e7;
-    outline: 10px solid rgb(255, 255, 255);
+    outline: 10px double rgb(0, 0, 0);
     text-decoration: none;
-    background-color: teal;
+    background-color: honeydew;
     text-align: center;
 }
 
-.img-div {}
-
-.converter {}
-
 #main-content1 {
-    background-image: url(./img/zar.png);
-    background-repeat: round;
     font-size: 30px;
-    border: 3px solid honeydew;
+    border: 10px solid rgb(43, 55, 226);
     border-radius: 20px 0 20px 0;
     color: black;
+    background-color: rgb(167, 255, 255);
 }
 
 #kmconvert {
-    background-image: url(./img/zar.png);
-    background-repeat: round;
     font-size: 30px;
-    border: 3px solid honeydew;
+    border: 10px solid rgb(23, 197, 0);
     border-radius: 20px 0 20px 0;
     color: black;
+    background-color: rgb(170, 255, 167);
 }
 
 #feetconvert {
-    background-image: url(./img/zar.png);
-    background-repeat: round;
     font-size: 30px;
-    border: 3px solid honeydew;
+    border: 10px solid rgb(214, 0, 14);
     border-radius: 20px 0 20px 0;
     color: black;
+    background-color: rgb(255, 167, 167);
 }
 
 #inchconvert {
-    background-image: url(./img/zar.png);
-    background-repeat: round;
     font-size: 30px;
-    border: 3px solid honeydew;
+    border: 10px solid rgb(230, 122, 0);
     border-radius: 20px 0 20px 0;
     color: black;
+    background-color: rgb(255, 202, 167);
 }
 
 #knotconvert {
-    background-image: url(./img/zar.png);
-    background-repeat: round;
     font-size: 30px;
-    border: 3px solid honeydew;
+    border: 10px solid rgb(221, 0, 255);
     border-radius: 20px 0 20px 0;
-    color: black;
+    color: rgb(59, 59, 59);
+    background-color: rgb(215, 167, 255);
 }
 
 #box1 {
@@ -73,7 +71,7 @@ body {
 
 input {
     background-color: honeydew;
-    border: none;
+    border: 2px solid black;
     color: rgb(0, 98, 255);
     padding-left: 1rem;
     padding-right: 1rem;
@@ -87,18 +85,15 @@ input {
 #btn {
     color: honeydew;
     font-size: 15px;
-    background-color: teal;
+    background-color: rgb(83, 83, 83);
     padding: 0.5rem;
     max-width: 200px;
-    border: 1px solid honeydew;
-    border-radius: 20px 0 20px 0;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
     cursor: pointer;
-    opacity: 100%;
 }
 
 #btn:hover {
-    color: teal;
+    color: rgb(0, 0, 0);
     background-color: honeydew;
-    border: 1px solid teal;
-    opacity: 100%;
 }
